@@ -107,6 +107,7 @@ Após instalar, para utilizar o Isitio no cluster
 ```
 
 
+
 ### Configurando addons
 
 
@@ -114,10 +115,10 @@ Na página de documentação do Istio tem algumas ferramentas de integração pa
 
 Foi adicionado no cluster as ferramentas:
 
-- Prometheus : `kubectapply -f https://raw.githubusercontent.com/istio/istio/release-1.21/samples/addons/prometheus.yaml`
-- Kiali: `kubectapply -f https://raw.githubusercontent.com/istio/istio/release-1.21/samples/addons/kiali.yaml`
-- Jaeger: `kubectapply -f https://raw.githubusercontent.com/istio/istio/release-1.21/samples/addons/jaeger.yaml`
-- Grafana: `kubectapply -f https://raw.githubusercontent.com/istio/istio/release-1.21/samples/addons/grafana.yaml`
+- Prometheus : `kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.21/samples/addons/prometheus.yaml`
+- Kiali: `kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.21/samples/addons/kiali.yaml`
+- Jaeger: `kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.21/samples/addons/jaeger.yaml`
+- Grafana: `kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.21/samples/addons/grafana.yaml`
 
 
 
