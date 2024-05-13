@@ -6,7 +6,7 @@
 - [x] Padrões e técnicas avançadas com Git e Github
 - [x] Integração contínua
 - [x] Kubernetes
-- [ ] **Service Mesh com Istio**
+- [x] **Service Mesh com Istio**
 - [ ] API Gateway
 - [ ] API Gateway com Kong e Kubernetes
 - [ ] Observabilidade
